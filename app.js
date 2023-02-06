@@ -11,8 +11,9 @@ function errorHandler(error){
     console.log("error occured "+error)
     alert("Unfortunately our server is down right now! Please check back after some time!")
 }
-var inputtext=txtInput.value
+
 function EventHandler(inputtext){
+    var inputtext=txtInput.value
     fetch(getUrl(inputtext))
     .then(response=>response.json())
     .then(json=>{
