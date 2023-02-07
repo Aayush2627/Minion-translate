@@ -1,9 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Josefin+Sans:wght@300;400;700&display=swap');
+:root{
+    --primary:#a855f7;
+    --secondary:#d8b4fe;
+    --width-break:600px;
+
+}
+body{
+    font-family: 'Itim', cursive;
+    margin: 0;
+}
 textarea{
     display: block;
     height: 10vh;
     width: 80%;
     margin: 1rem;
     padding: 1rem;
+    background-color: var(--secondary);
 }
 #output{
     border: 1px solid black;
@@ -11,8 +23,39 @@ textarea{
     width: 80%;
     margin: 1rem;
     padding:1rem;
+    background-color: var(--secondary);
 }
-.header{
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: inherit;
+    font-size: large;
+}
+.navigation{
     text-align: center;
-    background-color: cadetblue;
+    background-color: var(--primary);
+    
+    width: 100%;
+    padding:1rem;
+
+    
+}
+main{
+    padding:1rem;
+    margin:auto;
+    max-width: var(--width-break);
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+}
+footer p {
+    max-width: var(--width-break);
+    margin: auto;
 }
