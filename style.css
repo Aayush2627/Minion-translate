@@ -36,11 +36,8 @@ button {
 .navigation{
     text-align: center;
     background-color: var(--primary);
-    
     width: 100%;
-    padding:1rem;
-
-    
+    padding:1rem;   
 }
 main{
     padding:1rem;
