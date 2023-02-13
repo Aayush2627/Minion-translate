@@ -8,10 +8,11 @@
 body{
     font-family: 'Itim', cursive;
     margin: 0;
+    text-align: center;
 }
 textarea{
     display: block;
-    height: 10vh;
+    height: 12vh;
     width: 80%;
     margin: 1rem;
     padding: 1rem;
@@ -19,11 +20,12 @@ textarea{
 }
 #output{
     border: 1px solid black;
-    height: 10vh;
+    height: 12vh;
     width: 80%;
     margin: 1rem;
     padding:1rem;
     background-color: var(--secondary);
+    text-align: left;
 }
 button {
     background-color: var(--primary);
@@ -34,23 +36,23 @@ button {
     font-size: large;
 }
 .navigation{
-    text-align: center;
     background-color: var(--primary);
-    width: 100%;
-    padding:1rem;   
+    padding:1rem;
+
 }
 main{
     padding:1rem;
     margin:auto;
     max-width: var(--width-break);
 }
+.translation{
+    font-size: larger;
+    text-align:left
+}
 .footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     padding: 1rem;
     background-color: var(--primary);
-    text-align: center;
+    
 }
 footer p {
     max-width: var(--width-break);
